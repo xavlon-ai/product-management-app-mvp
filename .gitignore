@@ -1,0 +1,21 @@
+# dependencies and build output
+node_modules/
+.next/
+out/
+coverage/
+
+# local environment values (only the documented template is versioned)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# test and local-service state
+postgres-data/
+mailpit-data/
+
+# editor and operating-system files
+.DS_Store
+*.log
+.vscode/
+.idea/
